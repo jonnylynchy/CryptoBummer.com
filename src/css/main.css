@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway");
+/* Color of invalid field */
+.has-error .control-label,
+.has-error .help-block,
+.has-error .form-control-feedback {
+  color: #32c6e3; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f9f9fb;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23c3c3c3' fill-opacity='0.71' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); }
+
+.top-buffer {
+  margin-top: 20px; }
+
+.block {
+  color: #fff;
+  padding: 1px 20px 20px;
+  border: 0px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 2px; }
+
+.block:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.block h4 {
+  margin-top: 20px; }
+
+.form-fields {
+  background: #314755;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26a0da, #314755);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26a0da, #314755);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.price-block {
+  background: #1A2980;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.amounts-block {
+  background: #DD5E89;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F7BB97, #DD5E89);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #F7BB97, #DD5E89);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.errors-block {
+  background: #e52d27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b31217, #e52d27);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.emoji {
+  font-size: 124px;
+  line-height: 135px; }
+
+.currency {
+  font-family: 'Open Sans', sans-serif; }
+
+.header {
+  text-shadow: 1px 1px 20px white; }
